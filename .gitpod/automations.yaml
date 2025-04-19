@@ -1,3 +1,5 @@
+version: 1.0
+
 tasks:
     hello:
         name: Hello World
@@ -5,8 +7,7 @@ tasks:
             echo "Hello, World!"
         triggeredBy:
         - manual
-        # - postEnvironmentStart
-        # - postDevcontainerStart
+        - postEnvironmentStart  # Uncomment to run automatically after the environment starts
 
 services:
     backend:
@@ -28,10 +29,9 @@ services:
                     echo "Backend service is not ready"
                     exit 1
                 fi
-            # stop: |
-            # 	echo "Stopping backend service..."
-            # 	rm /tmp/backend.started
-            #   pkill backend
+            stop: |
+                echo "Stopping backend service..."
+                rm /tmp/backend.started
+                pkill -f "bash -c echo 'Starting backend service...'"  # Adjust this to match your start command
         triggeredBy:
-            - postEnvironmentStart
-            # - postDevcontainerStart
+            - postEnvironmentStart  # Uncomment to run automatically after the environment starts
