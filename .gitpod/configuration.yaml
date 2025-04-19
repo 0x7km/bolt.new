@@ -1,0 +1,14 @@
+activeContext: default
+contexts:
+    default:
+        host: https://app.gitpod.io
+        organizationID: 0195ef5f-8b70-73c2-a85d-b042e8750b42
+        userID: 0195ef5f-8b82-7557-9a50-26222f619ff9
+        credentials:
+            accesstoken: eyJhbGciOiJSUzI1NiIsImtpZCI6ImswIn0.eyJhdWQiOiJnaXRwb2QuZGV2L2FwaSIsImV4cCI6MTc0NDg1NTA3MSwiaWF0IjoxNzQ0ODUxNDcxLCJpc3MiOiJodHRwczovL2FwcC5naXRwb2QuaW8iLCJvcmciOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiLCJyb2xlcyI6WyJpZCIsIm93bmVyIiwib3JnYyJdLCJzdWIiOiJhY2NvdW50LzAxOTVlZjVkLWQ4NzgtNzJkMi05MTEzLWJmYmI3OTA2MjQxYyJ9.AKmDqle_9_fhxMABTRoQy1ghLvZYd6a2Y6zjQuTWuChbG04DLsK2qFbA9D_2yQJ3k2eFz_4C9D7W6w5QAx8_vAoUr61BAm1gWJjv40Ltia95LonaCf7qioKIPdSQ7cmMJofVOqxROJXKDDE_7gGZftnbaBMUUWgoa5HGWeVXZcB8mSyBqehxHN2AgeiZ1ZPB-YkFnQnaDAy-TgcAQ1Hj8peYf5ps3nUq71kTkAW-aigBcA6zdEvohImrjD6HJ618efzdpfibBiDOBqVJ_DwHgu_4PkAg1CAVchzDd6Z2H0Q2XbdXF3tCuEZ7qmONkK_z_iBEWBG4I2ueClEDpkuybg
+            tokentype: Bearer
+            refreshtoken: eyJhbGciOiJSUzI1NiIsImtpZCI6ImswIn0.eyJhdWQiOiJnaXRwb2QuZGV2L3JlZnJlc2giLCJjaWQiOiJnaXRwb2RfY2xpIiwiZXhwIjoxNzYwNDAzNDcxLCJpYXQiOjE3NDQ4NTE0NzEsImlzcyI6Imh0dHBzOi8vYXBwLmdpdHBvZC5pbyIsIm9yZyI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsInJvbGVzIjpbImlkIiwib3duZXIiLCJvcmdjIl0sInN1YiI6ImFjY291bnQvMDE5NWVmNWQtZDg3OC03MmQyLTkxMTMtYmZiYjc5MDYyNDFjIn0.cO6W0TD9NmQepwUxej99f-aNUKi8k92TCezvPyQno5rej6McIJuZGr5KDIw2ebgWjfMzAPab-BOpo4wEpniyc0rMAUirEbEBM93j-o1c71UtzPHm74iNRY1l8yQL0ass_glVeEEtLoCst-pOwwOiOgQNhWeMWzkCbksGgiduj6QA47I0Ie6WAjsaUvBdsv88aY8C2ymw5W0hidfaD0dkK3qaUhpQJBZZfb64bS1UsoE7c8pl-Ds09IUPdLhNtnqf6e1fWr1RLO8K-NkQHWOklyUPb3LgImlK9d9FwAU2Xx3ULZ_rGRsLKlI1aMkqcCwVVo27y8wnOBQcmp3LN6XmNw
+            expiry: 2025-04-17T01:57:51.485890314Z
+            expiresin: 0
+autoupdate: true
+releaseChannel: stable
