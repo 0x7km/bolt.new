@@ -1,0 +1,18 @@
+# Gitpod configuration
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  # Install dependencies and run the development server
+  - init: npm install
+    command: npm run dev
+
+ports:
+  # Open the development server (e.g., running on port 3000)
+  - port: 3000
+    onOpen: open-preview
+
+# Optional: Prebuilds for faster workspace startup
+github:
+  prebuilds:
+    branches: true  # Prebuild for all branches
